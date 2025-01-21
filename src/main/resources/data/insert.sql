@@ -13,7 +13,7 @@ VALUES ('d35c51c4-1220-416d-8646-b206eeb3a9db', 'User', 'USER' ,'2024-06-05 10:0
 
 -- Create super admin user
 INSERT INTO public.users (user_id, created_at, updated_at, created_by, updated_by, status, email, full_name, password)
-VALUES ('0c8ec17b-9a5b-4396-a522-876101d1e29e', null, null, '0c8ec17b-9a5b-4396-a522-876101d1e29e','0c8ec17b-9a5b-4396-a522-876101d1e29e', 1, 'superAdmin_cgxp@yopmail.com', 'SuperAdmin','$2a$10$Cdix08VTTvunM.QWFyOGde/hjqzZmu7i/J26brlQ2tQ1G6.X14/ka');
+VALUES ('0c8ec17b-9a5b-4396-a522-876101d1e29e', null, null, '0c8ec17b-9a5b-4396-a522-876101d1e29e','0c8ec17b-9a5b-4396-a522-876101d1e29e', 1, 'superAdmin@yopmail.com', 'SuperAdmin','$2a$10$Cdix08VTTvunM.QWFyOGde/hjqzZmu7i/J26brlQ2tQ1G6.X14/ka');
 
 INSERT INTO public.user_roles (fk_role_id, fk_user_id) VALUES ('a5fe8fb5-549b-4a08-9824-1ae638a0e99a', '0c8ec17b-9a5b-4396-a522-876101d1e29e');
 
